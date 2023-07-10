@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1 (Python 3.11.4 on win32)" generated="20230709 17:17:47.273" rpa="false" schemaversion="4">
+<suite id="s1" name="Automation testing" source="C:\Automation testing">
+<suite id="s1-s1" name="Test" source="C:\Automation testing\test">
+<suite id="s1-s1-s1" name="Test3" source="C:\Automation testing\test\test3.robot">
+<test id="s1-s1-s1-t1" name="13 Test" line="40">
+<kw name="Remove From Dictionary" library="Collections">
+<arg>${person}</arg>
+<arg>name</arg>
+<doc>Removes the given ``keys`` from the ``dictionary``.</doc>
+<msg timestamp="20230709 17:17:47.467" level="INFO">Removed item with key 'name' and value 'John'.</msg>
+<status status="PASS" starttime="20230709 17:17:47.467" endtime="20230709 17:17:47.467"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${person}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230709 17:17:47.467" level="INFO">{'age': '30', 'city': 'New York'}</msg>
+<status status="PASS" starttime="20230709 17:17:47.467" endtime="20230709 17:17:47.467"/>
+</kw>
+<status status="PASS" starttime="20230709 17:17:47.467" endtime="20230709 17:17:47.467"/>
+</test>
+<status status="PASS" starttime="20230709 17:17:47.289" endtime="20230709 17:17:47.467"/>
+</suite>
+<status status="PASS" starttime="20230709 17:17:47.289" endtime="20230709 17:17:47.467"/>
+</suite>
+<status status="PASS" starttime="20230709 17:17:47.273" endtime="20230709 17:17:47.467"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Automation testing">Automation testing</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Test">Automation testing.Test</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Test3">Automation testing.Test.Test3</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
