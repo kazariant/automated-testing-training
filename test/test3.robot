@@ -19,7 +19,7 @@ ${age}    30
 
 8 Test
     Set Test Variable    ${favorite}    ["Life is Beautiful", "Léon: The Professional", "The Chorus", "Ayla: The Daughter of War", "Capernaum"]
-    Log    ${favorite}
+    Log     ${favorite}
 
 9 Test
     Append To List      ${fruits}     Mango    Pineapple    Kiwi
